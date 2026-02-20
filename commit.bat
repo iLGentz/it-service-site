@@ -9,3 +9,5 @@ git commit -m "fix n_%msg%"
 git push origin main
 
 npm run deploy
+
+start https://ilgentz.github.io/it-service-site/
