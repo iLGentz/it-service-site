@@ -1,12 +1,11 @@
 cd "C:\Users\riccardo.gentile\Desktop\mio\Sito"
 
 set /p msg="Enter commit [n - message]: "
-set /p origin="Enter origin branch: "
 
 git add .
 
-git commit -m "fix n %msg%"
+git commit -m "fix n_%msg%"
 
-git push origin %origin%
+git push origin main
 
 npm run deploy
