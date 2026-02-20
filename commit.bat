@@ -7,6 +7,6 @@ git add .
 
 git commit -m "fix n %msg%"
 
-rem git push
+git push origin %origin%
 
-rem npm run deploy
+npm run deploy
