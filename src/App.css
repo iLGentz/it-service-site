@@ -10,8 +10,8 @@
   --gray-800: #1e293b;
   --white: #ffffff;
   --radius: 16px;
-  --shadow: 0 4px 24px rgba(0,0,0,0.08);
-  --shadow-hover: 0 8px 40px rgba(37,99,235,0.18);
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  --shadow-hover: 0 8px 40px rgba(37, 99, 235, 0.18);
   --transition: 0.25s ease;
 }
 
@@ -189,28 +189,27 @@
 }
 
 .slider-arrow {
-  background: var(--gray-100);
-  border: 1px solid var(--gray-200);
-  color: var(--gray-800);
+  background: none;
+  border: none;
+  color: var(--gray-400);
   font-size: 2rem;
-  line-height: 1;
   width: 44px;
   height: 44px;
-  border-radius: 50%;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  transition: background var(--transition), transform var(--transition);
+  transition: color var(--transition), transform var(--transition);
   z-index: 2;
+  padding: 0;
 }
 
 .slider-arrow:hover {
-  background: var(--blue);
-  color: var(--white);
-  border-color: var(--blue);
-  transform: scale(1.08);
+  background: none;
+  color: var(--blue);
+  border-color: transparent;
+  transform: scale(1.2);
 }
 
 .slider-viewport {
@@ -253,7 +252,7 @@
 
 .slide-icon {
   font-size: 3rem;
-  filter: drop-shadow(0 2px 8px rgba(0,0,0,0.25));
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.25));
 }
 
 .slide-title {
@@ -350,6 +349,7 @@
   .services-section {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .footer-inner {
     grid-template-columns: 1fr 1fr;
   }
@@ -360,16 +360,20 @@
     grid-template-columns: 1fr;
     padding: 24px;
   }
+
   .services-section {
     grid-template-columns: 1fr;
   }
+
   .brand-name {
     font-size: 1.8rem;
   }
+
   .footer-inner {
     grid-template-columns: 1fr;
     gap: 24px;
   }
+
   .slider-section {
     padding: 24px 16px 20px;
   }
