@@ -71,7 +71,7 @@ function Header() {
     <header className="header">
       <div className="header-brand">
         <div className="brand-badge">IT Services</div>
-        <h1 className="brand-name">Negrista</h1>
+        <h1 className="brand-name">IT Service</h1>
         <p className="brand-desc">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Soluzioni
           informatiche professionali per privati e aziende: assistenza,
